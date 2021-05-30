@@ -38,7 +38,7 @@
                         </figure>
                     </div>
                 </div>
-                <p class="text-dark">Copyright © 2021 <a href="https://neoterre.mx" class="text-dark"><strong>Neoterre</strong></a> <i data-desktop class="fas fa-heart" style="color:#f44336;"></i><br data-mobile-block> {$lang.website} {$lang.design_by} <a href="https://api.whatsapp.com/send?phone=+5491131952288" target="_blank" class="text-dark"><strong>Kuro Partners</strong></a> <br data-mobile-block> & {$lang.development_by} <a href="https://codemonkey.com.mx" target="_blank" class="text-dark"><strong>Code Monkey</strong></a></p>
+                <p class="text-dark">Copyright © 2021 <a href="https://neoterre.mx" class="text-dark"><strong>Neoterre</strong></a> <i data-desktop class="fas fa-heart m-l-5 m-r-5" style="color:#f44336;"></i><br data-mobile-block> {$lang.website} {$lang.design_by} <a href="https://api.whatsapp.com/send?phone=+5491131952288" target="_blank" class="text-dark"><strong>Kuro Partners</strong></a> <br data-mobile-block> & {$lang.development_by} <a href="https://codemonkey.com.mx" target="_blank" class="text-dark"><strong>Code Monkey</strong></a></p>
             </div>
         </footer>
         <script src="{$path.js}jquery-3.4.1.min.js"></script>

@@ -166,11 +166,11 @@ $this->dependencies->add(['js', '{$path.js}Index/index.js?v=1.1']);
             </div>
         </div>
     </section>
-    <section class="p-40" style="background-color:#f4f4ea;">
+    <section class="p-t-40 p-r-40 p-l-40" style="background-color:#f4f4ea;">
         <div class="container">
             <div class="row d-flex align-items-center">
                 <div data-desktop class="col-3"></div>
-                <div class="col-md-3 m-b-20 m-b-md-0">
+                <div class="col-md-3 m-b-40 m-b-md-0">
                     <figure class="text-center">
                         <img src="{$path.images}airbnb.png" alt="Logotype" class="img-fluid" style="max-height:80px;">
                     </figure>
@@ -183,10 +183,10 @@ $this->dependencies->add(['js', '{$path.js}Index/index.js?v=1.1']);
             </div>
         </div>
     </section>
-    <section id="contactanos" class="p-40" style="background-color:#f4f4ea;">
+    <section id="contactanos" class="p-t-40 p-r-40 p-l-40" style="background-color:#f4f4ea;">
         <div class="container d-flex align-items-center justify-content-center flex-column">
             <a href="mailto:<?php echo Configuration::$vars['contact']['email']; ?>" class="text-dark">{$lang.email}: <?php echo Configuration::$vars['contact']['email']; ?></a>
-            <a href="tel:<?php echo Configuration::$vars['contact']['phone']; ?>" class="m-b-20 text-dark">{$lang.phone}: <?php echo Configuration::$vars['contact']['phone']; ?></a>
+            <a href="tel:<?php echo Configuration::$vars['contact']['phone']; ?>" class="m-b-40 m-b-md-20 text-dark">{$lang.phone}: <?php echo Configuration::$vars['contact']['phone']; ?></a>
             <a href="#contactanos" class="btn btn-b-none text-uppercase text-light" style="width:100%;max-width:400px;border-radius:0px;background-color:#012b7b;">{$lang.contact_us}</a>
         </div>
     </section>
