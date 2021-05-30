@@ -25,6 +25,8 @@
                         <nav>
                             <ul class="list-unstyled">
                                 <li class="m-b-5"><a href="/" class="text-light">{$lang.home}</a></li>
+                                <li class="m-b-5"><a href="#nosotros" class="text-light">{$lang.us}</a></li>
+                                <li class="m-b-5"><a href="#porque-elegirnos" class="text-light">{$lang.why_choose_us}</a></li>
                                 <li class="m-b-5"><a href="#contactanos" class="text-light">{$lang.contact_us}</a></li>
                                 <li><a href="/aviso-de-privacidad" class="text-light">{$lang.privacy_notice}</a></li>
                             </ul>
@@ -32,11 +34,11 @@
                     </div>
                     <div data-desktop class="col-md-6">
                         <figure class="text-right">
-                            <img src="{$path.images}logotype.png" alt="Logotype" class="img-fluid" style="max-height:200px;">
+                            <img src="{$path.images}logotype.png" alt="Logotype" class="img-fluid" style="max-height:40px;">
                         </figure>
                     </div>
                 </div>
-                <p class="text-light">Copyright © 2021 <strong><?php echo Configuration::$web_page; ?></strong> <i data-desktop class="fas fa-heart" style="color:#f44336;"></i><br data-mobile-block> {$lang.website} {$lang.design_by} <a href="https://designcompany.com" target="_blank" class="text-light"><strong>Design Company</strong></a> <br data-mobile-block> & {$lang.development_by} <a href="https://codemonkey.com.mx" target="_blank" class="text-light"><strong>Code Monkey</strong></a></p>
+                <p class="text-light">Copyright © 2021 <a href="https://neoterre.mx" class="text-light"><strong>Neoterre</strong></a> <i data-desktop class="fas fa-heart" style="color:#f44336;"></i><br data-mobile-block> {$lang.website} {$lang.design_by} <a href="https://api.whatsapp.com/send?phone=+5491131952288" target="_blank" class="text-light"><strong>Kuro Partners</strong></a> <br data-mobile-block> & {$lang.development_by} <a href="https://codemonkey.com.mx" target="_blank" class="text-light"><strong>Code Monkey</strong></a></p>
             </div>
         </footer>
         <div class="pos-fixed" style="right:20px;bottom:20px;">
