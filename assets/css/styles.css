@@ -92,6 +92,11 @@ a, button { text-decoration: none !important; cursor: pointer !important; }
     src: url("../fonts/Karla-Medium.ttf");
 }
 
+@font-face {
+    font-family: 'Karla-Bold';
+    src: url("../fonts/Karla-Bold.ttf");
+}
+
 body * {
     font-family: 'Karla-Medium' !important;
 }
