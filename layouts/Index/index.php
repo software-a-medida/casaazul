@@ -23,7 +23,7 @@ $this->dependencies->add(['js', '{$path.js}Index/index.js?v=1.0']);
             </div>
         </div>
     </section>
-    <section class="p-40" style="background-color:#b2b2af;">
+    <section id="nosotros" class="p-40" style="background-color:#b2b2af;">
         <div class="container">
             <div class="row d-flex align-items-center">
                 <div class="col-md-6">
@@ -56,7 +56,7 @@ $this->dependencies->add(['js', '{$path.js}Index/index.js?v=1.0']);
             </div>
         </div>
     </section>
-    <section class="p-40" style="background-color:#e2e2dc;">
+    <section id="porque-elegirnos" class="p-40" style="background-color:#e2e2dc;">
         <div class="container">
             <div class="row d-flex align-items-center">
                 <div class="col-md-6">
@@ -183,7 +183,7 @@ $this->dependencies->add(['js', '{$path.js}Index/index.js?v=1.0']);
             </div>
         </div>
     </section>
-    <section class="p-40" style="background-color:#f4f4ea;">
+    <section id="contactanos" class="p-40" style="background-color:#f4f4ea;">
         <div class="container d-flex align-items-center justify-content-center flex-column">
             <a href="mailto:<?php echo Configuration::$vars['contact']['email']; ?>" class="text-dark">{$lang.email}: <?php echo Configuration::$vars['contact']['email']; ?></a>
             <a href="tel:<?php echo Configuration::$vars['contact']['phone']; ?>" class="m-b-20 text-dark">{$lang.phone}: <?php echo Configuration::$vars['contact']['phone']; ?></a>
