@@ -127,4 +127,34 @@ body * {
     #mobile_menu.open {
         right: 0px !important;
     }
+
+    #cover h1,
+    #numbers-speak h2 {
+        font-size: 40px !important;
+    }
+
+    #max-bookings figure {
+        height: 100vh !important;
+    }
+
+    #max-bookings > div > div > div {
+        width: auto !important;
+        top: 10px !important;
+        right: 10px !important;
+        left: 10px !important;
+    }
+
+    #porque-elegirnos > div > div > div,
+    #transparenci-availability > div > div > div {
+        border: 0px !important;
+    }
+
+    #transparenci-availability h4 > span {
+        font-size: 24px !important;
+    }
+
+    #gallery figure > img {
+        width: 100% !important;
+        height: auto !important;
+    }
 }

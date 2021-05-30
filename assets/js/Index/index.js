@@ -5,8 +5,8 @@ $(document).ready(function()
     $('[data-fancybox]').fancybox({
         padding: 0
     });
-    
-    var gallery = $('#gallery > .owl-carousel').owlCarousel({
+
+    var gallery = $('#gallery .owl-carousel').owlCarousel({
         stagePadding: 0,
         items: 1,
         margin: 0,
@@ -17,7 +17,7 @@ $(document).ready(function()
         loop: true
     });
 
-    $('#gallery > [data-action="prev_gallery"]').on('click', function()
+    $('#gallery [data-action="prev_gallery"]').on('click', function()
     {
         gallery.trigger('prev.owl.carousel');
         gallery.trigger('stop.owl.autoplay');
@@ -25,7 +25,7 @@ $(document).ready(function()
         setTimeout(function() { gallery.trigger('play.owl.autoplay'); }, '60000');
     });
 
-    $('#gallery > [data-action="next_gallery"]').on('click', function()
+    $('#gallery [data-action="next_gallery"]').on('click', function()
     {
         gallery.trigger('next.owl.carousel');
         gallery.trigger('stop.owl.autoplay');
