@@ -12,7 +12,7 @@ $this->dependencies->add(['js', '{$path.js}Index/index.js?v=1.0']);
 
 ?>
 
-<main>
+<main style="padding-top:100vh;background-color:#000;">
     <form name="contact_us">
         <input type="text" name="name" placeholder="{$lang.name}">
         <input type="email" name="email" placeholder="{$lang.email}">
