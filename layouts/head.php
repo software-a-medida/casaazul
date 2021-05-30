@@ -16,8 +16,8 @@
 		<link rel="stylesheet" href="{$path.css}styles.css?v=1.0" type="text/css" media="all" />
 		{$dependencies.css}
 	</head>
-	<body class="pos-relative">
-		<header id="desktop_menu" class="pos-fixed p-t-10 p-t-md-20 p-b-10 p-b-md-20 p-l-20 p-l-md-0 p-r-20 p-r-md-0" style="width:100%;transition:400ms;z-index:98;">
+	<body>
+		<header id="desktop_menu" class="pos-fixed p-t-10 p-t-md-40 p-b-10 p-b-md-40 p-l-20 p-l-md-0 p-r-20 p-r-md-0" style="width:100%;transition:400ms;z-index:98;">
 			<div class="container">
 				<div class="row d-flex align-items-center">
 					<div class="col-4 col-md-2">
