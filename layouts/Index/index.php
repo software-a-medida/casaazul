@@ -17,7 +17,7 @@ $this->dependencies->add(['js', '{$path.js}Index/index.js?v=1.0']);
             <img data-desktop src="{$path.images}cover_desktop.jpg" alt="Background" class="img-cover">
             <img data-mobile-block src="{$path.images}cover_mobile.jpg" alt="Background" class="img-cover">
         </figure>
-        <div class="pos-absolute d-flex align-items-center p-40" style="top:0px;right:0px;bottom:0px;left:0px;background-color:rgba(0,0,0,0.2);">
+        <div class="pos-absolute d-flex align-items-center p-40" style="top:0px;right:0px;bottom:0px;left:0px;background-color:rgba(0,0,0,0.1);">
             <div class="container">
                 <h1 class="m-b-20 text-center text-light" style="font-size:60px;">{$lang.keep_your_properties}</h1>
             </div>
@@ -26,17 +26,17 @@ $this->dependencies->add(['js', '{$path.js}Index/index.js?v=1.0']);
     <section class="p-40" style="background-color:#b2b2af;">
         <div class="container">
             <div class="row d-flex align-items-center">
-                <div class="col-md-3">
-                    <h4 style="font-size:40px;color:#f4f4ea;">{$lang.satisfied_customers}</h4>
+                <div class="col-md-6">
+                    <h4 style="font-family:'Karla-Bold';font-size:40px;color:#f4f4ea;">{$lang.satisfied_customers}</h4>
                 </div>
-                <div class="col-md-3">
-                    <h6 class="text-center text-uppercase" style="color:#f4f4ea;">{$lang.last_year_bookings}</h6>
+                <div class="col-md-2">
+                    <h5 class="text-center text-uppercase" style="color:#f4f4ea;">{$lang.last_year_bookings}</h5>
                 </div>
-                <div class="col-md-3" style="border-right:1px solid #f4f4ea;">
+                <div class="col-md-2" style="border-right:1px solid #f4f4ea;">
                     <h4 class="m-b-10 text-center" style="font-size:40px;color:#f4f4ea;">96.2%</h4>
                     <h6 class="text-center text-uppercase" style="color:#f4f4ea;">{$lang.stars_and_reviews}</h6>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-2">
                     <h4 class="m-b-10 text-center" style="font-size:40px;color:#f4f4ea;">95.7%</h4>
                     <h6 class="text-center text-uppercase" style="color:#f4f4ea;">{$lang.same_day_cleaning}</h6>
                 </div>
@@ -50,7 +50,7 @@ $this->dependencies->add(['js', '{$path.js}Index/index.js?v=1.0']);
                     <img src="{$path.images}your_blue_house.jpg" alt="Blue house" class="img-cover">
                 </figure>
                 <div class="pos-absolute p-40" style="width:400px;top:calc(50% - 150px);right:-200px;background-color:#f4f4ea;">
-                    <h2 class="m-b-20 text-dark">{$lang.max_your_bookings}</h2>
+                    <h2 class="m-b-20 text-dark" style="font-family:'Karla-Bold';">{$lang.max_your_bookings}</h2>
                     <p class="text-dark">{$lang.max_your_bookings_text}</p>
                 </div>
             </div>
@@ -60,7 +60,7 @@ $this->dependencies->add(['js', '{$path.js}Index/index.js?v=1.0']);
         <div class="container">
             <div class="row d-flex align-items-center">
                 <div class="col-md-6">
-                    <h4 class="text-dark" style="font-size:40px;">{$lang.why_choosing_us}</h4>
+                    <h4 class="text-dark" style="font-family:'Karla-Bold';font-size:40px;">{$lang.why_choosing_us}</h4>
                 </div>
                 <div class="col-md-3" style="border-right:1px solid #000;">
                     <h4 class="m-b-5 text-center text-dark" style="font-size:40px;">{$lang.full_service}</h4>
@@ -79,7 +79,7 @@ $this->dependencies->add(['js', '{$path.js}Index/index.js?v=1.0']);
         <figure style="height:100%;">
             <img src="{$path.images}tulum.jpg" alt="Background" class="img-cover">
         </figure>
-        <div class="pos-absolute d-flex align-items-center p-40" style="top:0px;right:0px;bottom:0px;left:0px;background-color:rgba(0,0,0,0.2);">
+        <div class="pos-absolute d-flex align-items-center p-40" style="top:0px;right:0px;bottom:0px;left:0px;background-color:rgba(0,0,0,0.1);">
             <div class="container">
                 <h1 class="text-center text-light" style="font-size:60px;">{$lang.let_the_numbers_speak_for_themselves}</h1>
             </div>
@@ -99,8 +99,7 @@ $this->dependencies->add(['js', '{$path.js}Index/index.js?v=1.0']);
                     <p class="text-center text-dark">{$lang.with_a_time_response}</p>
                 </div>
                 <div class="col-md-6">
-                    <h4 class="m-b-5 text-center text-dark" style="font-size:40px;">80%</h4>
-                    <h6 class="m-b-5 text-center text-dark">{$lang.of_ocupation_index}</h6>
+                    <h4 class="m-b-5 text-center text-dark" style="font-size:40px;">80% <br> {$lang.of_ocupation_index}</h4>
                     <p class="text-center text-uppercase text-dark">{$lang.thanks_our_price_syste}</p>
                 </div>
             </div>
@@ -143,23 +142,23 @@ $this->dependencies->add(['js', '{$path.js}Index/index.js?v=1.0']);
     <section class="p-40" style="background-color:#e2e2dc;">
         <div class="container">
             <div class="row d-flex align-items-center">
-                <div class="col-md-3">
+                <div class="col-md-6">
                     <figure class="m-b-10">
                         <img src="{$path.images}logotype_blue.png" alt="Logotype" class="img-fluid" style="max-height:40px;">
                     </figure>
-                    <h2 class="text-center text-uppercase" style="color:#012b7b;">{$lang.and_the_market}</h2>
+                    <h2 class="text-uppercase" style="font-family:'Karla-Bold';color:#012b7b;">{$lang.and_the_market}</h2>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-2">
                     <h4 class="m-b-5 text-center text-dark" style="font-size:40px;">$59.13</h4>
                     <h6 class="m-b-10 text-center text-uppercase text-dark">{$lang.per_night}</h6>
                     <p class="text-center text-dark">{$lang.night_prom_cdmx}</p>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-2">
                     <h4 class="m-b-5 text-center text-dark" style="font-size:40px;">89.5%</h4>
                     <h6 class="m-b-10 text-center text-uppercase text-dark">{$lang.ocupation_index}</h6>
                     <p class="text-center text-dark">{$lang.ocupation_prom_cdmx}</p>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-2">
                     <h4 class="m-b-5 text-center text-dark" style="font-size:40px;">$1,587</h4>
                     <h6 class="m-b-10 text-center text-uppercase text-dark">{$lang.per_month}</h6>
                     <p class="text-center text-dark">{$lang.mont_prom_cdmx}</p>
@@ -170,15 +169,17 @@ $this->dependencies->add(['js', '{$path.js}Index/index.js?v=1.0']);
     <section class="p-40" style="background-color:#f4f4ea;">
         <div class="container">
             <div class="row d-flex align-items-center">
-                <div class="col-md-6">
+                <div data-desktop class="col-3"></div>
+                <div class="col-md-3">
                     <figure class="text-center">
                         <img src="{$path.images}airbnb.png" alt="Logotype" class="img-fluid" style="max-height:80px;">
                     </figure>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-3">
                     <h4 class="m-b-5 text-center text-dark" style="font-size:40px;">SuperHost</h4>
                     <p class="text-center text-dark">{$lang.we_certificated_like_superhost}</p>
                 </div>
+                <div data-desktop class="col-3"></div>
             </div>
         </div>
     </section>

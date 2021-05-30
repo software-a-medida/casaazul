@@ -88,6 +88,11 @@ a, button { text-decoration: none !important; cursor: pointer !important; }
 /*  */
 
 @font-face {
+    font-family: 'Karla-Light';
+    src: url("../fonts/Karla-Light.ttf");
+}
+
+@font-face {
     font-family: 'Karla-Medium';
     src: url("../fonts/Karla-Medium.ttf");
 }
@@ -98,7 +103,7 @@ a, button { text-decoration: none !important; cursor: pointer !important; }
 }
 
 body * {
-    font-family: 'Karla-Medium' !important;
+    font-family: 'Karla-Light';
 }
 
 .fa, .far, .fas {
