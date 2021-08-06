@@ -302,12 +302,12 @@ class Configuration
 				'user' => '@myfacebook'
 			],
 			'instagram' => [
-				'url' => 'https://instagram.com/',
-				'user' => '@myinstagram'
+				'url' => 'https://www.instagram.com/casaazulhomes/',
+				'user' => '@casaazulhomes'
 			],
 			'airbnb' => [
-				'url' => 'https://airbnb.mx/',
-				'user' => '@myairbnb'
+				'url' => 'https://www.airbnb.com.ar/users/show/246632734?_set_bev_on_new_domain=1626984936_MDlmM2JmZTMyZjJl',
+				'user' => '@casaazulhomes'
 			]
 		]
 	];
