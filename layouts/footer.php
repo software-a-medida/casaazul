@@ -16,7 +16,8 @@
                         <nav>
                             <ul class="list-unstyled">
                                 <li class="m-b-5"><a href="<?php echo Configuration::$vars['rrss']['facebook']['url']; ?>" target="_blank" class="text-dark"><i class="fab fa-facebook m-r-5"></i><?php echo Configuration::$vars['rrss']['facebook']['user']; ?></a></li>
-                                <li><a href="<?php echo Configuration::$vars['rrss']['instagram']['url']; ?>" target="_blank" class="text-dark"><i class="fab fa-instagram m-r-5"></i><?php echo Configuration::$vars['rrss']['instagram']['user']; ?></a></li>
+                                <li class="m-b-5"><a href="<?php echo Configuration::$vars['rrss']['instagram']['url']; ?>" target="_blank" class="text-dark"><i class="fab fa-instagram m-r-5"></i><?php echo Configuration::$vars['rrss']['instagram']['user']; ?></a></li>
+                                <li><a href="<?php echo Configuration::$vars['rrss']['airbnb']['url']; ?>" target="_blank" class="text-dark"><i class="fab fa-airbnb m-r-5"></i><?php echo Configuration::$vars['rrss']['airbnb']['user']; ?></a></li>
                             </ul>
                         </nav>
                     </div>

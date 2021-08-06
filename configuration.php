@@ -304,6 +304,10 @@ class Configuration
 			'instagram' => [
 				'url' => 'https://instagram.com/',
 				'user' => '@myinstagram'
+			],
+			'airbnb' => [
+				'url' => 'https://airbnb.mx/',
+				'user' => '@myairbnb'
 			]
 		]
 	];
