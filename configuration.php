@@ -290,16 +290,16 @@ class Configuration
 	public static $vars = [
 		'contact' => [
 			'email' => 'info@casaazulhomes.mx',
-			'phone' => '+52 (984) 238 75 72'
+			'phone' => '+52 (998) 242 87 22'
 		],
 		'rrss' => [
 			'whatsapp' => [
-				'url' => 'https://api.whatsapp.com/send?phone=+529842387572',
-				'user' => '+52 (984) 238 75 72'
+				'url' => 'https://api.whatsapp.com/send?phone=+529982428722',
+				'user' => '+52 (998) 242 87 22'
 			],
 			'facebook' => [
-				'url' => 'https://facebook.com/',
-				'user' => '@myfacebook'
+				'url' => 'https://www.facebook.com/Casa-Azul-Homes-112448081099868',
+				'user' => '@casaazulhomes'
 			],
 			'instagram' => [
 				'url' => 'https://www.instagram.com/casaazulhomes/',
