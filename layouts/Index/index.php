@@ -112,9 +112,10 @@ $this->dependencies->add(['js', '{$path.js}Index/index.js?v=1.1']);
                     <p class="text-center text-dark">{$lang.we_ensure_integrity}</p>
                 </div>
                 <div class="col-md-3">
-                    <h4 class="m-b-5 text-center text-dark" style="font-size:40px;">+300</h4>
+                    <!-- <h4 class="m-b-5 text-center text-dark" style="font-size:40px;">+300</h4>
                     <h6 class="m-b-10 text-center text-uppercase text-dark">{$lang.registered_brokers}</h6>
-                    <p class="text-center text-dark">{$lang.excellent_comercial_relationship}</p>
+                    <p class="text-center text-dark">{$lang.excellent_comercial_relationship}</p> -->
+                    <p class="text-center text-dark">{$lang.your_unique_task}</p>
                 </div>
             </div>
         </div>

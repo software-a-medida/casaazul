@@ -7,9 +7,9 @@
                         <h6 class="m-b-5 text-uppercase text-dark">{$lang.contact_us}</h6>
                         <nav class="m-b-20">
                             <ul class="list-unstyled">
-                                <li class="m-b-5"><a href="<?php echo Configuration::$vars['rrss']['whatsapp']['url']; ?>" target="_blank" class="text-dark"><i class="fab fa-whatsapp m-r-5"></i><?php echo Configuration::$vars['rrss']['whatsapp']['user']; ?></a></li>
+                                <!-- <li class="m-b-5"><a href="<?php echo Configuration::$vars['rrss']['whatsapp']['url']; ?>" target="_blank" class="text-dark"><i class="fab fa-whatsapp m-r-5"></i><?php echo Configuration::$vars['rrss']['whatsapp']['user']; ?></a></li> -->
                                 <li class="m-b-5"><a href="mailto:<?php echo Configuration::$vars['contact']['email']; ?>" target="_blank" class="text-dark"><i class="fas fa-envelope m-r-5"></i><?php echo Configuration::$vars['contact']['email']; ?></a></li>
-                                <li><a href="tel:<?php echo Configuration::$vars['contact']['phone']; ?>" target="_blank" class="text-dark"><i class="fas fa-phone m-r-5"></i><?php echo Configuration::$vars['contact']['phone']; ?></a></li>
+                                <!-- <li><a href="tel:<?php echo Configuration::$vars['contact']['phone']; ?>" target="_blank" class="text-dark"><i class="fas fa-phone m-r-5"></i><?php echo Configuration::$vars['contact']['phone']; ?></a></li> -->
                             </ul>
                         </nav>
                         <h6 class="m-b-5 text-uppercase text-dark">{$lang.follow_us}</h6>
@@ -39,7 +39,7 @@
                         </figure>
                     </div>
                 </div>
-                <p class="text-dark">Copyright © 2021 <a href="https://neoterre.mx" class="text-dark"><strong>Neoterre</strong></a> <i data-desktop class="fas fa-heart m-l-5 m-r-5" style="color:#f44336;"></i><br data-mobile-block> {$lang.website} {$lang.design_by} <a href="https://api.whatsapp.com/send?phone=+5491131952288" target="_blank" class="text-dark"><strong>Kuro Partners</strong></a> <br data-mobile-block> & {$lang.development_by} <a href="https://codemonkey.com.mx" target="_blank" class="text-dark"><strong>Code Monkey</strong></a></p>
+                <p class="text-dark">Copyright © 2021 <a href="https://casaazulhomes.mx" class="text-dark"><strong>Casa Azul</strong></a> <i data-desktop class="fas fa-heart m-l-5 m-r-5" style="color:#f44336;"></i><br data-mobile-block> {$lang.website} {$lang.design_by} <a href="https://api.whatsapp.com/send?phone=+5491131952288" target="_blank" class="text-dark"><strong>Kuro Partners</strong></a> <br data-mobile-block> & {$lang.development_by} <a href="https://codemonkey.com.mx" target="_blank" class="text-dark"><strong>Code Monkey</strong></a></p>
             </div>
         </footer>
         <script src="{$path.js}jquery-3.4.1.min.js"></script>
